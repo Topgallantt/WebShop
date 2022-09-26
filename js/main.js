@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
   let xml = new XMLHttpRequest();
   xml.open(
     "get",
-    "https://raw.githubusercontent.com/Danilovesovic/shop/master/shop.json"
+    "https://raw.githubusercontent.com/Topgallantt/WebShop/master/shop.json"
   );
 
   xml.onreadystatechange = function () {
